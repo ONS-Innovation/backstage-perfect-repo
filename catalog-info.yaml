@@ -1,0 +1,26 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-perfect-repo
+  description: "This repository should pass every SoundCheck in Backstage."
+  tags:
+    - python
+    - etl
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: ONS-Innovation/backstage-perfect-repo
+  links:
+    - url: https://codespaces.new/ONS-Innovation/backstage-perfect-repo
+      title: Open Development Environment 
+      icon: scaffolder
+    - url: https://officenationalstatistics.sharepoint.com/sites/ONS_DDaT_Communities/SitePages/SE%20-%20Principles,%20Policies,%20Guidelines%20&%20more.aspx?csf=1&web=1&share=EQI8qpmdcZ1MvVA__6yKAtgBkWCMhU-pty-SBeAs1KVAEQ&e=jlgchY
+      title: Policies & Guidelines  
+      icon: catalog
+    - url: https://app.pluralsight.com/channels/details/c4f16af4-8278-440c-9ae8-fc9e95f1f34d
+      title: Learning Pathway  
+      icon: help
+spec:
+  type: module
+  lifecycle: experimental
+  owner: "user:default/sebtheo"
+  system: "system:default/keh-system"
